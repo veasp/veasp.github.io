@@ -1,15 +1,15 @@
 module.exports = {
   pathPrefix: "/",
   siteMetadata: {
-    title: `Leonids`,
+    title: `Software & Ideas`,
     author: {
       name: `@roberts-ivanovs`,
-      summary: `Programming hurdles`,
     },
     description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
     siteUrl: `https://roberts-ivanovs.github.io/`,
     social: {
-      twitter: `ry_zou`,
+      github: `roberts-ivanovs`,
+      linkedin: `roberts-ivanovs-3b24b6159`,
     },
     defaultImage: "images/bg.jpeg",
   },
@@ -62,13 +62,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ryz`,
-        short_name: `Ryz`,
+        name: `Roberts Ivanovs`,
+        short_name: `Roberts`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon-01.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
