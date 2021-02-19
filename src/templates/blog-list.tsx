@@ -1,5 +1,5 @@
 // Gatsby supports TypeScript natively!
-import React from "react"
+import React, { ReactElement } from "react"
 import { PageProps, Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -36,7 +36,7 @@ const BlogIndex = ({
   data,
   location,
   pageContext,
-}: PageProps<Data, PageContext>) => {
+}: PageProps<Data, PageContext>): ReactElement => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
   const { currentPage, numPages } = pageContext

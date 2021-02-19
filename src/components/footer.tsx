@@ -1,11 +1,9 @@
-import React from "react"
+import React, { ReactElement } from "react"
 
-const Footer = () => {
+export const Footer = (): ReactElement => {
   return (
     <footer className="my-12 text-center">
       © {new Date().getFullYear()} Roberts Ivanovs
     </footer>
   )
 }
-
-export default Footer

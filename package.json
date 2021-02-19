@@ -8,6 +8,7 @@
     "url": "https://github.com/renyuanz/leonids/issues"
   },
   "dependencies": {
+    "@types/react-helmet": "^6.1.0",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",

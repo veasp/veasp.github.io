@@ -1,16 +1,16 @@
-import React from "react"
+import React, { ReactElement } from "react"
 import { Link } from "gatsby"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import { scale } from "../utils/typography"
 
-import Footer from "./footer"
+import { Footer } from "./footer"
 import "./global.css"
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, children }): ReactElement => {
   const toggle = (
     <ThemeToggler>
       {({ toggleTheme, theme }) => {
-        const isDarkMode = theme === "dark"
+        const isDarkMode = theme === `dark`
         if (theme == null) {
           return null
         }
@@ -19,7 +19,7 @@ const Layout = ({ location, title, children }) => {
           <button
             aria-label="theme-switch"
             className="leading-none p-1"
-            onClick={() => toggleTheme(isDarkMode ? "light" : "dark")}
+            onClick={() => toggleTheme(isDarkMode ? `light` : `dark`)}
           >
             {isDarkMode ? (
               <svg
@@ -83,10 +83,10 @@ const Layout = ({ location, title, children }) => {
   return (
     <div
       style={{
-        backgroundColor: "var(--bg)",
-        color: "var(--textNormal)",
-        transition: "color 0.2s ease-out, background 0.2s ease-out",
-        minHeight: "100vh",
+        backgroundColor: `var(--bg)`,
+        color: `var(--textNormal)`,
+        transition: `color 0.2s ease-out, background 0.2s ease-out`,
+        minHeight: `100vh`,
       }}
     >
       <div className="sidebar">

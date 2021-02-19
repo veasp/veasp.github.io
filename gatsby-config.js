@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/",
+  pathPrefix: `/`,
   siteMetadata: {
     title: `Software & Ideas`,
     author: {
@@ -11,7 +11,7 @@ module.exports = {
       github: `roberts-ivanovs`,
       linkedin: `roberts-ivanovs-3b24b6159`,
     },
-    defaultImage: "images/bg.jpeg",
+    defaultImage: `images/bg.jpeg`,
   },
   plugins: [
     {
@@ -81,7 +81,7 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
-    "gatsby-plugin-dark-mode",
+    `gatsby-plugin-dark-mode`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-typescript`,
   ],
