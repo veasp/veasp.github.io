@@ -84,5 +84,6 @@ module.exports = {
     `gatsby-plugin-dark-mode`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-typescript`,
+    `gatsby-plugin-scss-typescript`,
   ],
 }
