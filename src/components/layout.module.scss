@@ -20,6 +20,10 @@ $sidebar-base-width: 330px;
   text-align: center;
   background-color: var(--lightBg);
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   div {
     padding-top: 1rem;
   }
@@ -38,6 +42,16 @@ $sidebar-base-width: 330px;
     /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
     line-height: normal;
     outline: 0;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      span {
+        margin-right: 0.4rem;
+      }
+    }
   }
 }
 
