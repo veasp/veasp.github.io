@@ -22,7 +22,6 @@
     "gatsby-plugin-google-analytics": "^2.3.13",
     "gatsby-plugin-manifest": "^2.4.23",
     "gatsby-plugin-offline": "^3.2.23",
-    "gatsby-plugin-postcss": "^2.3.11",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sharp": "^2.6.27",
     "gatsby-plugin-typescript": "^2.12.0",
@@ -50,8 +49,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-scss-typescript": "^4.0.13",
-    "prettier": "2.0.5",
-    "tailwindcss": "^1.6.2"
+    "prettier": "2.0.5"
   },
   "homepage": "https://github.com/renyuanz/leonids#readme",
   "keywords": [

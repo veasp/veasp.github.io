@@ -1,0 +1,67 @@
+$sidebar-base-width: 330px;
+
+.project-container {
+  margin-top: 2rem;
+  background-color: var(--bg);
+  color: var(--textNormal);
+  transition: color 0.2s ease-out, background 0.2s ease-out;
+  min-height: 100vh;
+}
+
+
+.sidebar {
+  height: 200px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  text-align: center;
+  background-color: var(--lightBg);
+
+  div {
+    padding-top: 1rem;
+  }
+
+  .mode-toggle {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    cursor: pointer;
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+    outline: 0;
+  }
+}
+
+
+.main-content {
+  background-color: var(--bg);
+  position: absolute;
+  top: 200px;
+  z-index: 10;
+  padding: 0 20px 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar {
+    height: 100vh;
+    width: $sidebar-base-width;
+  }
+  .main-content {
+    padding: 0 100px 0;
+    height: 100vh;
+    width: calc(100% - 330px);
+    margin-left: $sidebar-base-width;
+    top: 0;
+  }
+}

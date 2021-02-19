@@ -4,7 +4,8 @@ import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import { scale } from "../utils/typography"
 
 import { Footer } from "./footer"
-import "./global.css"
+import "./base.scss"
+import * as style from "./layout.module.scss"
 
 const Layout = ({ location, title, children }): ReactElement => {
   const toggle = (
@@ -18,7 +19,7 @@ const Layout = ({ location, title, children }): ReactElement => {
         return (
           <button
             aria-label="theme-switch"
-            className="leading-none p-1"
+            className={style.modeToggle}
             onClick={() => toggleTheme(isDarkMode ? `light` : `dark`)}
           >
             {isDarkMode ? (
@@ -57,7 +58,7 @@ const Layout = ({ location, title, children }): ReactElement => {
   )
 
   const header = (
-    <>
+    <div>
       {toggle}
       <h1
         style={{
@@ -77,28 +78,16 @@ const Layout = ({ location, title, children }): ReactElement => {
           {title}
         </Link>
       </h1>
-    </>
+    </div>
   )
 
   return (
-    <div
-      style={{
-        backgroundColor: `var(--bg)`,
-        color: `var(--textNormal)`,
-        transition: `color 0.2s ease-out, background 0.2s ease-out`,
-        minHeight: `100vh`,
-      }}
-    >
-      <div className="sidebar">
-        <div
-          className="md:h-screen p-4 flex flex-col justify-center items-center"
-          style={{ minHeight: 200 }}
-        >
-          {header}
-        </div>
+    <div className={style.projectContainer}>
+      <div className={style.sidebar}>
+        <div className="flex flex-col items-center">{header}</div>
       </div>
 
-      <div className="main-content relative">
+      <div className={style.mainContent}>
         <main>{children}</main>
         <Footer />
       </div>
