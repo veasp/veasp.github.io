@@ -1,8 +1,10 @@
 import React, { ReactElement } from "react"
 
+import * as style from "./footer.module.scss"
+
 export const Footer = (): ReactElement => {
   return (
-    <footer className="my-12 text-center">
+    <footer className={style.footer}>
       © {new Date().getFullYear()} Roberts Ivanovs
     </footer>
   )

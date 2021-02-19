@@ -87,12 +87,12 @@ const Layout = ({ location, title, children }): ReactElement => {
   )
 
   return (
-    <div className={style.projectContainer}>
+    <div id="root" className={style.projectContainer}>
       <div className={style.sidebar}>
         <div className="flex flex-col items-center">{header}</div>
       </div>
 
-      <div className={style.mainContent}>
+      <div id="content" className={style.mainContent}>
         <main>{children}</main>
         <Footer />
       </div>

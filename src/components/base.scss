@@ -58,3 +58,34 @@ blockquote {
 .footnotes {
   word-break: break-all;
 }
+
+
+
+
+/* This is to keep the footer down */
+html,
+body {
+    width: 100%;
+    height: 10%;
+}
+
+#root {
+    min-height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#content,
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-grow: 1;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-grow: 1;
+}
