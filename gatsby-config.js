@@ -1,15 +1,14 @@
 module.exports = {
   pathPrefix: `/`,
   siteMetadata: {
-    title: `Software & Ideas`,
+    title: `VeA Studentu Padome`,
     author: {
-      name: `@roberts-ivanovs`,
+      name: `@vea-sp`,
     },
     description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
-    siteUrl: `https://roberts-ivanovs.github.io/`,
+    siteUrl: `https://vea-sp.github.io/`,
     social: {
-      github: `roberts-ivanovs`,
-      linkedin: `roberts-ivanovs-3b24b6159`,
+      github: `vea-sp`,
     },
     defaultImage: `images/bg.jpeg`,
   },
@@ -62,13 +61,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Roberts Ivanovs`,
-        short_name: `Roberts`,
+        name: `Ventspils Augstskoals Studentu Padome`,
+        short_name: `VeA SP`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/softideas.png`,
+        icon: `content/assets/sp.jpg`,
       },
     },
     `gatsby-plugin-react-helmet`,

@@ -19,7 +19,6 @@ const SEO = ({ description, lang, meta, title }): ReactElement => {
             title
             description
             social {
-              linkedin
               github
             }
           }

@@ -1,37 +1,22 @@
 ---
-title: 001 Hello world
-date: "2021-02-19T19:40:00.000Z"
-description: "I am alive"
-categories: [misc, blog]
-comments: true
+title: Svecināti jaunajā mājaslapā
+date: "2021-02-22T19:40:00.000Z"
+description: "Mums ir jauna mājaslapa, kā jau katrai trešajai studentu padomei!"
+categories: [blabber, blog]
+comments: false
 ---
 
-## What is this
+### Katra trešā studentu padome nāk ar savu mājaslapu
 
-> "What I cannot create, I do not understand” - Richard Feynman
+Tas ir kā apburtais loks. Ko viens ceļ, to otrs gāž. VeA SP 2019/2020 gadā
+izvēlējās iepriekšējo mājaslapu iznīcināt no eksistences, kuru bija izveidojis
+aiz-iepriekšējais sabiedrisko attiecību speciālists Raitis Ralfs Vecmanis. Jāsaka gan, ka tā arī
+netika uzturēta, maksāt naudu par domēnu tāpat vien jau arī nav diez ko prātīgi.
 
-This is going to be my blog, where I will write my thoughts, findings and interesting ideas about software development. Don't expect regular content here.
+Katrai trešajai studentu padomei ir sava mājaslapa. Dažiem labāka, dažiem sliktāka, bet
+vismaz šis ir centies radīt vienotu vietu kur regulāri apokopot informāciju, radīt vietu, kur regulāri
+varētu veidot kopīgu nākotni ar iespēju saglabāt vēsturi, lai visiem ir kur atskatīties.
 
-I wanted to try out Github Pages and decided that I could try writing a blog as well, since I've wanted to start writing in my free time for quite some time now.
-I have quite a lot of projects that I've worked on - some finished, some not so much.
-After every single attempt of creating something, I've learned something new and I will view this blog as my place to vent out and share my thoughts about whatever I've been up to.
+Kā arī izaicinājums visām nākošajām Ventspils Augstskoals Studentu Padomēm - nenogaliniet šo mājaslapu, bet ļaujiet tai augt!
 
-I have a tendency to learn by doing, so I do *generate* a lot of code in my free time (not saying that any of it any good).
-
-
-### Look at this fizzbuzz code if you have nothing better to do
-
-
-```rust
-fn fizzbuzz(n: u32) -> () {
-    if is_divisible_by(n, 15) {
-        println!("fizzbuzz");
-    } else if is_divisible_by(n, 3) {
-        println!("fizz");
-    } else if is_divisible_by(n, 5) {
-        println!("buzz");
-    } else {
-        println!("{}", n);
-    }
-}
-```
+Šoreiz šīs lapas pamatus ir izveidojis Roberts Ivanovs. Tas tā, ja nu kāds man grib darbu piedāvāt.
