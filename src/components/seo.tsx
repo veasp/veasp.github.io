@@ -71,7 +71,17 @@ const SEO = ({ description, lang, meta, title }): ReactElement => {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <div id="fb-root"></div>
+      {/* Enable the code below to enable facebook tracker, you monster */}
+      {/* <script
+        async
+        defer
+        crossOrigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0"
+        nonce="5AHi3f1S"
+      ></script> */}
+    </Helmet>
   )
 }
 

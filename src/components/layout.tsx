@@ -93,6 +93,27 @@ const Layout = ({ location, title, children }): ReactElement => {
       </div>
 
       <div id="content" className={style.mainContent}>
+        {/* Enable the code below to enable facebook tracker, you monster */}
+        {/* <div
+          className="fb-page"
+          data-href="https://www.facebook.com/Studentupadome"
+          data-tabs="timeline"
+          data-width=""
+          data-height=""
+          data-small-header="false"
+          data-adapt-container-width="true"
+          data-hide-cover="false"
+          data-show-facepile="true"
+        >
+          <blockquote
+            cite="https://www.facebook.com/Studentupadome"
+            className="fb-xfbml-parse-ignore"
+          >
+            <a href="https://www.facebook.com/Studentupadome">
+              Ventspils Augstskolas Studentu padome
+            </a>
+          </blockquote>
+        </div> */}
         <main>{children}</main>
         <Footer />
       </div>
