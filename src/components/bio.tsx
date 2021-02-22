@@ -27,7 +27,8 @@ export const Bio = (): React.ReactElement => {
             name
           }
           social {
-            github
+            facebook
+            instagram
           }
         }
       }
@@ -56,11 +57,11 @@ export const Bio = (): React.ReactElement => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong>
+        Rakstīja <strong>{author.name}</strong>
         {` `}
-        <a href={`https://github.com/${social.github}`}>
-          You should follow him on GitHub
-        </a>
+        <a href={`https://facebook.com/${social.facebook}`}>Facebook</a>
+        {` `}
+        <a href={`https://instagram.com/${social.instagram}`}>Instagram</a>
       </p>
     </div>
   )

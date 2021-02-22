@@ -8,7 +8,8 @@ module.exports = {
     description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
     siteUrl: `https://vea-sp.github.io/`,
     social: {
-      github: `vea-sp`,
+      instagram: `vea_sp`,
+      facebook: `Studentupadome`,
     },
     defaultImage: `images/bg.jpeg`,
   },

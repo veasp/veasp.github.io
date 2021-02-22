@@ -19,4 +19,10 @@ varētu veidot kopīgu nākotni ar iespēju saglabāt vēsturi, lai visiem ir ku
 
 Kā arī izaicinājums visām nākošajām Ventspils Augstskoals Studentu Padomēm - nenogaliniet šo mājaslapu, bet ļaujiet tai augt!
 
+Studentu Padome, kas šoreiz aktīvi un cītīgi darbojās 2020/2021 studiju gadā cauri COVID-19 pandēmijas laikam. ir apskatāma attēlā zemāk.
+
+![sp](sp-2020-2021.png)
+
+*PS. two of these are not like the others*
+
 Šoreiz šīs lapas pamatus ir izveidojis Roberts Ivanovs. Tas tā, ja nu kāds man grib darbu piedāvāt.
