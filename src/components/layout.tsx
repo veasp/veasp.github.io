@@ -66,7 +66,7 @@ const Layout = ({ location, title, children }): ReactElement => {
     <div>
       <h1
         style={{
-          ...scale(0.7),
+          ...scale(0.5),
           marginBottom: 0,
           marginTop: 0,
           fontFamily: `Montserrat, sans-serif`,
