@@ -23,6 +23,6 @@ Studentu Padome, kas šoreiz aktīvi un cītīgi darbojās 2020/2021 studiju gad
 
 ![sp](sp-2020-2021.png)
 
-*PS. two of these are not like the others*
+*PS. three of these are not like the others*
 
 Šoreiz šīs lapas pamatus ir izveidojis Roberts Ivanovs. Tas tā, ja nu kāds man grib darbu piedāvāt.
