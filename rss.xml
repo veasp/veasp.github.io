@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[VeA Studentu Padome]]></title><description><![CDATA[A simple, fixed sidebar two columns Gatsby.js blog starter.]]></description><link>https://vea-sp.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 27 May 2021 17:12:31 GMT</lastBuildDate><item><title><![CDATA[Svecināti jaunajā mājaslapā]]></title><description><![CDATA[Katra trešā studentu padome nāk ar savu mājaslapu Tas ir kā apburtais loks. Ko viens ceļ, to otrs gāž. VeA SP 2019/2020 gadā
+izvēlējās…]]></description><link>https://vea-sp.github.io/1-hello-world/</link><guid isPermaLink="false">https://vea-sp.github.io/1-hello-world/</guid><pubDate>Mon, 22 Feb 2021 19:40:00 GMT</pubDate><content:encoded>&lt;h3&gt;Katra trešā studentu padome nāk ar savu mājaslapu&lt;/h3&gt;
+&lt;p&gt;Tas ir kā apburtais loks. Ko viens ceļ, to otrs gāž. VeA SP 2019/2020 gadā
+izvēlējās iepriekšējo mājaslapu iznīcināt no eksistences, kuru bija izveidojis
+aiz-iepriekšējais sabiedrisko attiecību speciālists Raitis Ralfs Vecmanis. Jāsaka gan, ka tā arī
+netika uzturēta, maksāt naudu par domēnu tāpat vien jau arī nav diez ko prātīgi.&lt;/p&gt;
+&lt;p&gt;Katrai trešajai studentu padomei ir sava mājaslapa. Dažiem labāka, dažiem sliktāka, bet
+vismaz šis ir centies radīt vienotu vietu kur regulāri apokopot informāciju, radīt vietu, kur regulāri
+varētu veidot kopīgu nākotni ar iespēju saglabāt vēsturi, lai visiem ir kur atskatīties.&lt;/p&gt;
+&lt;p&gt;Kā arī izaicinājums visām nākošajām Ventspils Augstskoals Studentu Padomēm - nenogaliniet šo mājaslapu, bet ļaujiet tai augt!&lt;/p&gt;
+&lt;p&gt;Studentu Padome, kas šoreiz aktīvi un cītīgi darbojās 2020/2021 studiju gadā cauri COVID-19 pandēmijas laikam. ir apskatāma attēlā zemāk.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cc95735b72262e0475584621dc23c2d5/c1b63/sp-2020-2021.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAADJElEQVQozwEZA+b8AHJ9g3V2fGlhZndnbU5MUERERFhaW1lcXVxfYGBiY2NkZFZYWUVLTFhZWFZXV1VWVU5QUElLTEtRU0VOUQCQl5etrKmXiYSFb3RiYWZBP0BdX12IkI6TmpeTmJaWnZuFh4RraWV9hIN3goZwf4ZqfIVNV1xnfYZ0kqAAlpyhgomcSEteOz9ZMUFfKjI8Y2FdzNXU2OTk2eLg3ebkv8fAiH94oYd/nZuborC2maOqb3l+fI6VjKaxAHl/f2dxenB6hoGQnG5wfHFhZo+JhM7Qza6ppquknuPn46GkoXt1ca+Jfpd/famXkqaEeYqNinNwcbO0swBiZ2ZyWUGysKW6zM6Yf3aaiIKjpqKqsquXiYKliYGIkZNtYFxkUlBzWV2FLj2EUleaiH6Eg38qHSKflI8AXl1cilk5lJGDdYqSl3JkPkVOjoB2pqKIwbKwwayklYJ2lWxjsXZnhys0bSIzPzc5IS80ICsyFxggUE9RAGdkYJJqTJGEdmpUWVs4OHJYTbSCbbGTjMHGzcC6s7uViI5fUY5XSWwnJlxAQ6iKeyQkKRAWHxMVHQ4SHABuZFxbT0dgW1FsUVdrOkqFaVW9kXOUb159jJR9kIusnIxTVFBaLSlWKiU0KSmqfGhBLSocFx0YHSUWGiIAfXlxUUxKMDEzUkpOQiw6TkM+h21lamVhGzJEXVFckXp5MENSQCQqSSIeKDA0moBzMy8tFhwiGSg2FyEtAH5cTIdwYHBgTnZkXCIjKxkcHzEtKENDQhYxQktKRH9TRik4RhYkLg4aGQ40OQ4nNyIhJC4yOxIpOxcfLABaSD1/ZleokoNxbW8oKTEHGyRRVkc+Q0U6R1F/fnNwamE+REoSISwMEhdYT0k7PT9KOTI4NDkTJDUXHyoAQT07U1JWgoqaF3CcPlFfQUxRaWFlXEdCKTU+Zm9wQmBRJzczBxAXJiQoW1NUWU5GSz02LSwyHTAyHy0sAC0lH1NOT21tcBxslRdIXXyurbrO2kZMTytASbDR2CZ2ZgcdHQACCFBdZqPAzEJoawAQGxMfLV5yeCo9QhlBLMiru2yaAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;sp&quot;
+        title=&quot;sp&quot;
+        src=&quot;/static/cc95735b72262e0475584621dc23c2d5/fcda8/sp-2020-2021.png&quot;
+        srcset=&quot;/static/cc95735b72262e0475584621dc23c2d5/12f09/sp-2020-2021.png 148w,
+/static/cc95735b72262e0475584621dc23c2d5/e4a3f/sp-2020-2021.png 295w,
+/static/cc95735b72262e0475584621dc23c2d5/fcda8/sp-2020-2021.png 590w,
+/static/cc95735b72262e0475584621dc23c2d5/efc66/sp-2020-2021.png 885w,
+/static/cc95735b72262e0475584621dc23c2d5/c83ae/sp-2020-2021.png 1180w,
+/static/cc95735b72262e0475584621dc23c2d5/c1b63/sp-2020-2021.png 1200w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PS. three of these are not like the others&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Šoreiz šīs lapas pamatus ir izveidojis Roberts Ivanovs. Tas tā, ja nu kāds man grib darbu piedāvāt.&lt;/p&gt;</content:encoded></item></channel></rss>
